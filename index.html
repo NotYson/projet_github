@@ -1,1 +1,100 @@
-<p>hello</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Document</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
+	<script src="js/carousel.js" defer></script>
+
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="content">
+
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Alexandre C Mercado</div>
+						<div class="layers__title">Developpeur Junior</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+		
+			<article class="main-article" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-article__content">
+					<h2 class="main-article__header">To be continued</h2>
+					<p class="main-article__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis error provident dignissimos facere. Repellendus tempore autem qui! Quia magnam tempora esse id necessitatibus corrupti mollitia expedita sapiente cum rerum, ut dicta laboriosam!</p>
+					<div class="carousel-container">
+						<span class="carousel-buttons backwards"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						  <mask id="mask0_404_7" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+							<rect x="0.264771" y="0.117676" width="24" height="24" fill="#D9D9D9"/>
+						  </mask>
+						  <g mask="url(#mask0_404_7)">
+							<path d="M10.2648 22.1177L0.264771 12.1177L10.2648 2.11768L12.0398 3.89268L3.81477 12.1177L12.0398 20.3427L10.2648 22.1177Z" fill="#1C1B1F"/>
+						  </g>
+						  </svg>
+						</span>
+						<div class="carousel-wrapper">
+						  <ul role="list" class="carousel-slides" data-translate="1">
+							<li class="carousel-slide">
+							  <a href="" class="link">
+								<img src="https://images.unsplash.com/photo-1741620979760-bccef3bb5b17?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A neon burger sign shines on a green wall.
+						">
+							  </a>
+							</li>
+							<li class="carousel-slide">
+							  <a href="" class="link">
+								<img src="https://images.unsplash.com/photo-1742360644480-1a97bcf15e5d?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="A neon burger sign shines on a green wall.
+						">
+							  </a>
+							</li>
+							<li class="carousel-slide">
+								<a href="" class="link">
+								  <img src="img/dungeon.jpg">
+								</a>
+							  </li>
+							<li class="carousel-slide">
+							  <a href="" class="link">
+								<img src="https://images.unsplash.com/photo-1743046813915-94cf6d5e6942?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="An abstract light-colored glass background">
+							  </a>
+							</li>
+						  </ul>
+						  <div class="carousel-dots">
+							<div class="dot active"></div>
+							<div class="dot"></div>
+							<div class="dot"></div>
+						  </div>
+						</div>
+						<span class="carousel-buttons forwards"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						  <mask id="mask0_404_13" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+							<rect width="24" height="24" fill="#D9D9D9"/>
+						  </mask>
+						  <g mask="url(#mask0_404_13)">
+							<path d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2L18.025 12L8.025 22Z" fill="#1C1B1F"/>
+						  </g>
+						  </svg>
+						</span>
+					  </div>
+				</div>
+				<div class="copy">© WebDesign Master</div>
+			</article>
+
+		</div>
+	</div>
+</body>
+</html>
